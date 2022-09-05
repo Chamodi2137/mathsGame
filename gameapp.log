@@ -1,0 +1,54 @@
+2021-11-22 12:59:09 INFO  InitialPage:58 - Opening initial page.
+2021-11-22 13:57:54 INFO  InitialPage:58 - Opening initial page.
+2021-11-22 13:57:55 INFO  InitialPage:72 - Login page is called.
+2021-11-22 13:58:02 INFO  DataAccessDao:30 - find is called - user[user1]passcode[user1]
+2021-11-22 13:58:02 INFO  DataAccessDao:35 - DB fetch and login is called.
+2021-11-22 13:58:03 INFO  DataAccessDao:38 - DB connected 
+2021-11-22 13:58:03 INFO  DataAccessDao:46 - Login successful
+2021-11-22 13:58:03 INFO  DataAccessDao:58 - isRecordFund :true
+2021-11-22 13:58:03 INFO  Login:96 - Login is successful
+2021-11-22 13:58:05 INFO  LevelOne:53 - LevelOne frame is being initialized
+2021-11-22 13:58:05 INFO  LevelOne:99 - LevelOne frame is initialized
+2021-11-22 13:58:07 INFO  LevelOne:105 - LevelOne button action to perform
+2021-11-22 13:58:07 INFO  DataAccessDao:68 - Enter updateAnswer.
+2021-11-22 13:58:07 INFO  DataAccessDao:77 - value-->8
+2021-11-22 13:58:07 INFO  DataAccessDao:89 - Exit updateAnswer.
+2021-11-22 13:58:09 INFO  DataAccessDao:93 - Enter updateCompare.
+2021-11-22 13:58:09 ERROR DataAccessDao:115 - Error::java.lang.NullPointerException
+2021-11-22 13:58:09 INFO  DataAccessDao:122 - Exit updateCompare.
+2021-11-22 13:58:09 INFO  LevelOne:113 - LevelOne button action performed
+2021-11-22 14:00:49.049 [AWT-EventQueue-0hread] app.mygame.InitialPage.initialize(InitialPage.java:58)evel   app.mygame.InitialPage.initialize(InitialPage.java:58)ogger{36} - Opening initial page.sg
+2021-11-22 14:00:50.636 [AWT-EventQueue-0hread] app.mygame.InitialPage$2.actionPerformed(InitialPage.java:72)evel   app.mygame.InitialPage$2.actionPerformed(InitialPage.java:72)ogger{36} - Login page is called.sg
+2021-11-22 14:01:02.967 [AWT-EventQueue-0hread] app.mygame.dao.DataAccessDao.find(DataAccessDao.java:30)evel   app.mygame.dao.DataAccessDao.find(DataAccessDao.java:30)ogger{36} - find is called - user[user2]passcode[user2]sg
+2021-11-22 14:01:02.968 [AWT-EventQueue-0hread] app.mygame.dao.DataAccessDao.find(DataAccessDao.java:35)evel   app.mygame.dao.DataAccessDao.find(DataAccessDao.java:35)ogger{36} - DB fetch and login is called.sg
+2021-11-22 14:01:03.716 [AWT-EventQueue-0hread] app.mygame.dao.DataAccessDao.find(DataAccessDao.java:38)evel   app.mygame.dao.DataAccessDao.find(DataAccessDao.java:38)ogger{36} - DB connected sg
+2021-11-22 14:01:03.733 [AWT-EventQueue-0hread] app.mygame.dao.DataAccessDao.find(DataAccessDao.java:46)evel   app.mygame.dao.DataAccessDao.find(DataAccessDao.java:46)ogger{36} - Login successfulsg
+2021-11-22 14:01:03.735 [AWT-EventQueue-0hread] app.mygame.dao.DataAccessDao.find(DataAccessDao.java:58)evel   app.mygame.dao.DataAccessDao.find(DataAccessDao.java:58)ogger{36} - isRecordFund :truesg
+2021-11-22 14:01:03.753 [AWT-EventQueue-0hread] app.mygame.Login$2.actionPerformed(Login.java:96)evel   app.mygame.Login$2.actionPerformed(Login.java:96)ogger{36} - Login is successfulsg
+2021-11-22 14:01:05.308 [AWT-EventQueue-0hread] app.mygame.LevelOne.initialize(LevelOne.java:53)evel   app.mygame.LevelOne.initialize(LevelOne.java:53)ogger{36} - LevelOne frame is being initializedsg
+2021-11-22 14:01:05.351 [AWT-EventQueue-0hread] app.mygame.LevelOne.initialize(LevelOne.java:99)evel   app.mygame.LevelOne.initialize(LevelOne.java:99)ogger{36} - LevelOne frame is initializedsg
+2021-11-22 14:01:08.651 [AWT-EventQueue-0hread] app.mygame.LevelOne$5.actionPerformed(LevelOne.java:105)evel   app.mygame.LevelOne$5.actionPerformed(LevelOne.java:105)ogger{36} - LevelOne button action to performsg
+2021-11-22 14:01:08.652 [AWT-EventQueue-0hread] app.mygame.dao.DataAccessDao.updateAnswer(DataAccessDao.java:68)evel   app.mygame.dao.DataAccessDao.updateAnswer(DataAccessDao.java:68)ogger{36} - Enter updateAnswer.sg
+2021-11-22 14:01:08.659 [AWT-EventQueue-0hread] app.mygame.dao.DataAccessDao.updateAnswer(DataAccessDao.java:77)evel   app.mygame.dao.DataAccessDao.updateAnswer(DataAccessDao.java:77)ogger{36} - value-->8sg
+2021-11-22 14:01:08.781 [AWT-EventQueue-0hread] app.mygame.dao.DataAccessDao.updateAnswer(DataAccessDao.java:89)evel   app.mygame.dao.DataAccessDao.updateAnswer(DataAccessDao.java:89)ogger{36} - Exit updateAnswer.sg
+2021-11-22 14:01:13.564 [AWT-EventQueue-0hread] app.mygame.dao.DataAccessDao.updateCompare(DataAccessDao.java:93)evel   app.mygame.dao.DataAccessDao.updateCompare(DataAccessDao.java:93)ogger{36} - Enter updateCompare.sg
+2021-11-22 14:01:13.567 [AWT-EventQueue-0hread] app.mygame.dao.DataAccessDao.updateCompare(DataAccessDao.java:116)evel   app.mygame.dao.DataAccessDao.updateCompare(DataAccessDao.java:116)ogger{36} - Error::java.lang.NullPointerExceptionsg
+2021-11-22 14:01:13.568 [AWT-EventQueue-0hread] app.mygame.dao.DataAccessDao.updateCompare(DataAccessDao.java:123)evel   app.mygame.dao.DataAccessDao.updateCompare(DataAccessDao.java:123)ogger{36} - Exit updateCompare.sg
+2021-11-22 14:01:13.569 [AWT-EventQueue-0hread] app.mygame.LevelOne$5.actionPerformed(LevelOne.java:113)evel   app.mygame.LevelOne$5.actionPerformed(LevelOne.java:113)ogger{36} - LevelOne button action performedsg
+2021-11-22 14:02:26.254 [AWT-EventQueue-0hread] app.mygame.InitialPage.initialize(InitialPage.java:58)evel   app.mygame.InitialPage.initialize(InitialPage.java:58)ogger{36} - Opening initial page.sg
+2021-11-22 14:02:27.723 [AWT-EventQueue-0hread] app.mygame.InitialPage$2.actionPerformed(InitialPage.java:72)evel   app.mygame.InitialPage$2.actionPerformed(InitialPage.java:72)ogger{36} - Login page is called.sg
+2021-11-22 14:02:34.566 [AWT-EventQueue-0hread] app.mygame.dao.DataAccessDao.find(DataAccessDao.java:30)evel   app.mygame.dao.DataAccessDao.find(DataAccessDao.java:30)ogger{36} - find is called - user[user1]passcode[user1]sg
+2021-11-22 14:02:34.567 [AWT-EventQueue-0hread] app.mygame.dao.DataAccessDao.find(DataAccessDao.java:35)evel   app.mygame.dao.DataAccessDao.find(DataAccessDao.java:35)ogger{36} - DB fetch and login is called.sg
+2021-11-22 14:02:35.152 [AWT-EventQueue-0hread] app.mygame.dao.DataAccessDao.find(DataAccessDao.java:38)evel   app.mygame.dao.DataAccessDao.find(DataAccessDao.java:38)ogger{36} - DB connected sg
+2021-11-22 14:02:35.164 [AWT-EventQueue-0hread] app.mygame.dao.DataAccessDao.find(DataAccessDao.java:46)evel   app.mygame.dao.DataAccessDao.find(DataAccessDao.java:46)ogger{36} - Login successfulsg
+2021-11-22 14:02:35.167 [AWT-EventQueue-0hread] app.mygame.dao.DataAccessDao.find(DataAccessDao.java:58)evel   app.mygame.dao.DataAccessDao.find(DataAccessDao.java:58)ogger{36} - isRecordFund :truesg
+2021-11-22 14:02:35.168 [AWT-EventQueue-0hread] app.mygame.Login$2.actionPerformed(Login.java:96)evel   app.mygame.Login$2.actionPerformed(Login.java:96)ogger{36} - Login is successfulsg
+2021-11-22 14:02:36.262 [AWT-EventQueue-0hread] app.mygame.LevelOne.initialize(LevelOne.java:53)evel   app.mygame.LevelOne.initialize(LevelOne.java:53)ogger{36} - LevelOne frame is being initializedsg
+2021-11-22 14:02:36.310 [AWT-EventQueue-0hread] app.mygame.LevelOne.initialize(LevelOne.java:99)evel   app.mygame.LevelOne.initialize(LevelOne.java:99)ogger{36} - LevelOne frame is initializedsg
+2021-11-22 14:02:39.906 [AWT-EventQueue-0hread] app.mygame.LevelOne$5.actionPerformed(LevelOne.java:105)evel   app.mygame.LevelOne$5.actionPerformed(LevelOne.java:105)ogger{36} - LevelOne button action to performsg
+2021-11-22 14:02:39.908 [AWT-EventQueue-0hread] app.mygame.dao.DataAccessDao.updateAnswer(DataAccessDao.java:68)evel   app.mygame.dao.DataAccessDao.updateAnswer(DataAccessDao.java:68)ogger{36} - Enter updateAnswer.sg
+2021-11-22 14:02:39.916 [AWT-EventQueue-0hread] app.mygame.dao.DataAccessDao.updateAnswer(DataAccessDao.java:77)evel   app.mygame.dao.DataAccessDao.updateAnswer(DataAccessDao.java:77)ogger{36} - value-->8sg
+2021-11-22 14:02:39.993 [AWT-EventQueue-0hread] app.mygame.dao.DataAccessDao.updateAnswer(DataAccessDao.java:89)evel   app.mygame.dao.DataAccessDao.updateAnswer(DataAccessDao.java:89)ogger{36} - Exit updateAnswer.sg
+2021-11-22 14:02:42.041 [AWT-EventQueue-0hread] app.mygame.dao.DataAccessDao.updateCompare(DataAccessDao.java:93)evel   app.mygame.dao.DataAccessDao.updateCompare(DataAccessDao.java:93)ogger{36} - Enter updateCompare.sg
+2021-11-22 14:02:42.140 [AWT-EventQueue-0hread] app.mygame.dao.DataAccessDao.updateCompare(DataAccessDao.java:125)evel   app.mygame.dao.DataAccessDao.updateCompare(DataAccessDao.java:125)ogger{36} - Exit updateCompare.sg
+2021-11-22 14:02:42.141 [AWT-EventQueue-0hread] app.mygame.LevelOne$5.actionPerformed(LevelOne.java:113)evel   app.mygame.LevelOne$5.actionPerformed(LevelOne.java:113)ogger{36} - LevelOne button action performedsg
